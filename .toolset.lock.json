@@ -1,0 +1,19 @@
+{
+	"tools": [
+		{
+			"runtime": "go",
+			"module": "github.com/vektra/mockery/v3@v3.5.5",
+			"alias": null,
+			"tags": [
+				"test"
+			]
+		},
+		{
+			"runtime": "gh",
+			"module": "kazhuravlev/toolset@v0.42.0",
+			"alias": null,
+			"tags": null
+		}
+	],
+	"remotes": []
+}

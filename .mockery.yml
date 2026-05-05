@@ -1,0 +1,10 @@
+dir: '{{.InterfaceDir}}'
+formatter: gofmt
+structname: '{{.Mock}}{{.InterfaceName | firstUpper}}'
+template: testify
+filename: "mock_test.go"
+packages:
+  github.com/mcraq/dmr-acp:
+    config:
+      all: true
+      recursive: true

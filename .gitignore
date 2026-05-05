@@ -1,0 +1,21 @@
+# Binaries
+/bin/
+/dmr-acp
+*.exe
+*.dll
+*.so
+
+# Build
+/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# Mocks
+**/mocks/
